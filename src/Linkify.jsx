@@ -95,7 +95,7 @@ class Linkify extends React.Component {
     this.parseCounter = 0;
     const parsedChildren = this.parse(this.props.children);
 
-    return <span className={this.props.className}>{parsedChildren}</span>;
+    return <p className={this.props.className}>{parsedChildren}</p>;
   }
 }
 
